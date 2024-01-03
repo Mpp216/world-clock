@@ -5,9 +5,10 @@ body {
 .container {
   max-width: 600px;
   border-radius: 12px;
-  margin: 0 auto;
+  margin: 60px auto;
   background-color: white;
   padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 select {
@@ -33,6 +34,12 @@ h2 {
   margin: 20px 0;
   justify-content: space-between;
   font-size: 16px;
+  padding: 20px 0;
+  border-bottom: 1px dashed grey;
+}
+
+.city:last-child {
+  border: none;
 }
 
 .date {
@@ -40,12 +47,12 @@ h2 {
 }
 
 .time {
-  font-size: 20px;
+  font-size: 32px;
 }
 
 .time small {
   vertical-align: center;
-  font-size: 10px;
+  font-size: 17px;
 }
 
 footer {

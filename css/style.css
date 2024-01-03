@@ -1,6 +1,51 @@
+body {
+  background-color: #cce0f9;
+}
+
+.container {
+  max-width: 600px;
+  border-radius: 12px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
 h1 {
   color: #749bcd;
   text-align: center;
+  margin-top: 5px;
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+.city {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.date {
+  color: #7a7c7d;
+}
+
+.time {
+  font-size: 20px;
+}
+
+.time small {
+  vertical-align: center;
+  font-size: 10px;
 }
 
 footer {

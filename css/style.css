@@ -10,6 +10,7 @@ body {
   max-width: 600px;
   border-radius: 12px;
   margin: 60px auto;
+  margin-bottom: 35px;
   background-color: white;
   padding: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -21,12 +22,19 @@ select {
   padding: 10px;
   border-radius: 10px;
   font-size: 15px;
+  color: #7a7c7d;
+  border: groove 6px #e6e6e6;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 h1 {
   color: #749bcd;
   text-align: center;
   margin-top: 5px;
+  font-size: 45px;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 h2 {
@@ -35,11 +43,11 @@ h2 {
 
 .city {
   display: flex;
-  margin: 20px 0;
+  margin: 15px 5px;
   justify-content: space-between;
   font-size: 16px;
   padding: 20px 0;
-  border-bottom: 1px dashed grey;
+  border-bottom: 1px dashed #e6e6e6;
 }
 
 .city:last-child {
@@ -47,7 +55,7 @@ h2 {
 }
 
 .date {
-  color: #7a7c7d;
+  color: #749bcd;
 }
 
 .time {
@@ -57,6 +65,17 @@ h2 {
 .time small {
   vertical-align: center;
   font-size: 17px;
+}
+
+a {
+  color: #7a7c7d;
+  margin: 0 5px;
+}
+
+a:hover {
+  color: #749bcd;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 footer {
